@@ -2,7 +2,7 @@
 
 ```
 git clone https://github.com/H4RP3R/SF_D5.11.git
-cd SF_D4.11
+cd SF_D5.11
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
