@@ -50,5 +50,8 @@ class Friend(models.Model):
                                    through=Book.friend_reader.through,
                                    verbose_name='Книги')
 
+    class Meta:
+        ordering = ['name']
+
     def __str__(self):
         return self.name
